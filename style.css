@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.Capa-container {
+  position: relative;
+  background-color: #37ca57;
+  height: 100%;
+}
+
+.Capa-container img {
+    width: 150px;
+    height: 150px;
+}
+
+.Capa-container > .top {
+  display: flex;
+}
+
+.Capa-container > .top h1 {
+  padding: 20px;
+  text-align: center;
+  color: #fefefe;
+}
+
+.Capa-container > .image-example {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.Capa-container > .image-example img {
+  width: 85%;
+  height: 50%;
+}
+
+.Capa-container > .image-example h1 {
+  color: #fefefe;
+  padding-bottom: 20px;
+}
+
+.Capa-container > .navbar-bottom {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  bottom: 15px;
+}
+
+.Capa-container > .navbar-bottom h2 {
+  font-size: 12px;
+  padding: 10px;
+  color: #fefefe;
+}
+
+.Indice-container {
+    background-color: #80beff;
+    height: 100%;
+}
+
+.Indice-container h1 {
+  color: #fefefe;
+  text-align: center;
+}
+
+.Indice-container > .title {
+  padding: 20px;
+}
+
+.Indice-container > .diapositivos {
+  margin-top: 150px;
+}
+
+.Indice-container > .diapositivos h1 {
+  padding: 10px;
+}
+
+
+.Introduction-container {
+    background-color: #ffd580;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Introduction-container p {
+  text-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  color: #fefefe;
+}
+
+.Introduction-container h1 {
+  text-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  color: #fefefe;
+  padding-bottom: 20px;
+}
+
+
+.Development-container {
+    background-color: #fefefe;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #8806ff;
+}
+
+.Development-container p {
+  margin: 15px;
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Development-container h1 {
+  color: #fefefe;
+  font-weight: 600;
+  font-size: auto;
+}
+
+.Conclusion-container {
+    background-color: #fefefe;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #43da84;
+}
+
+.Conclusion-container p {
+  margin: 15px;
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Conclusion-container h1 {
+  color: #fefefe;
+  font-weight: 600;
+  font-size: auto;
+}
+
+.Bibliografy-container {
+    background-color: #fefefe;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #e90000, #ff3c3c);
+    color: #fefefe;
+}
+
+.Bibliografy-container h1 {
+  font-weight: 600;
+  font-size: auto;
+  padding: 10px;
+}
+
+.Webgrafy-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #1e2028, #e90000);
+    color: #fefefe;
+}
+
+.Webgrafy-container h1 {
+  font-weight: 600;
+  font-size: auto;
+  padding: 10px;
+}
+
+
